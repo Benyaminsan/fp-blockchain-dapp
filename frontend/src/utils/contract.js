@@ -319,5 +319,3 @@ export const CONTRACT_ABI = [
     "type": "function"
   }
 ];
-
-export default { CONTRACT_ADDRESS, CONTRACT_ABI };

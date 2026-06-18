@@ -1,0 +1,65 @@
+/* Proposal List */
+
+.proposals-section {
+  animation: fadeIn 0.4s ease;
+}
+
+.proposals-section-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  gap: 0.5rem;
+}
+
+.proposals-section-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.proposals-count {
+  font-size: 0.75rem;
+  color: var(--text-2);
+  font-family: var(--font-mono);
+}
+
+.proposals-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+
+/* Empty state */
+.proposals-empty {
+  padding: 2.5rem 1.5rem;
+  border-radius: var(--radius);
+  border: 1px dashed var(--border);
+  text-align: center;
+}
+
+.proposals-empty-title {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-1);
+  margin-bottom: 0.25rem;
+}
+
+.proposals-empty-desc {
+  font-size: 0.8125rem;
+  color: var(--text-2);
+}
+
+/* Skeleton */
+.proposals-skeleton-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+
+@media (max-width: 640px) {
+  .proposals-grid,
+  .proposals-skeleton-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,57 @@
+/* App Layout */
+
+.app {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-main {
+  flex: 1;
+  max-width: 720px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Network warning */
+.network-warning {
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-sm);
+  background: var(--warning-muted);
+  border: 1px solid rgba(245, 158, 11, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  font-size: 0.8125rem;
+  color: var(--text-0);
+  animation: fadeIn 0.3s ease;
+}
+
+.network-warning strong {
+  color: var(--warning);
+}
+
+/* Footer */
+.app-footer {
+  text-align: center;
+  padding: 1.5rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.75rem;
+  color: var(--text-2);
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid var(--border);
+}
+
+@media (max-width: 640px) {
+  .app-main {
+    padding: 1.25rem 1rem;
+    gap: 1.5rem;
+  }
+}

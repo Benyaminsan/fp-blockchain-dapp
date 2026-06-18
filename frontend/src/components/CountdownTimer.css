@@ -1,0 +1,78 @@
+/* Countdown Timer */
+
+.countdown {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  padding: 0.875rem 1rem;
+  border-radius: var(--radius);
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+  font-size: 0.8125rem;
+  animation: fadeIn 0.3s ease;
+}
+
+.countdown-label {
+  color: var(--text-2);
+  font-weight: 500;
+  margin-right: 0.25rem;
+}
+
+.countdown-blocks {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+.countdown-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 36px;
+}
+
+.countdown-value {
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: var(--font-mono);
+  color: var(--text-0);
+  line-height: 1;
+}
+
+.countdown-unit {
+  font-size: 0.5625rem;
+  color: var(--text-2);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 0.125rem;
+}
+
+.countdown-sep {
+  font-size: 0.875rem;
+  color: var(--text-2);
+  margin-bottom: 0.75rem;
+}
+
+/* Urgent */
+.countdown-urgent .countdown-value {
+  color: var(--danger);
+}
+
+/* Closed */
+.countdown-closed {
+  color: var(--danger);
+  font-weight: 500;
+}
+
+/* Open indefinitely */
+.countdown-open {
+  color: var(--text-2);
+}
+
+@media (max-width: 480px) {
+  .countdown {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
