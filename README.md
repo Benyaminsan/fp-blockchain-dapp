@@ -82,5 +82,37 @@ Buka `http://localhost:5173`
 [Masukkan Link Video Demo atau GIF di sini]
 
 ## Screenshot
+### Wallet not connected
+<img width="1918" height="1021" alt="Screenshot 2026-06-19 104852" src="https://github.com/user-attachments/assets/f7318db4-5eac-4c67-a33c-7d8b9bfa9473" />
+
+### Wallet connected
 <img width="1600" height="834" alt="image" src="https://github.com/user-attachments/assets/2565a0a4-30ef-4b9d-90ca-8a9323b0a440" />
+
+### Read operation
+<img width="1888" height="982" alt="Screenshot 2026-06-19 110045" src="https://github.com/user-attachments/assets/529e1c15-a33e-4b16-bbac-eda640dcc09f" />
+
+### Write pending
+<img width="1893" height="948" alt="Screenshot 2026-06-19 105358" src="https://github.com/user-attachments/assets/56cb3175-86ad-4db5-9bd9-d48a7c993e51" />
+
+### Write success
+<img width="1902" height="967" alt="Screenshot 2026-06-19 105230" src="https://github.com/user-attachments/assets/48e6ed01-6292-45cf-9ec8-a8c0b28ef994" />
+
+### MetaMask Popup
+<img width="1905" height="970" alt="Screenshot 2026-06-19 110452" src="https://github.com/user-attachments/assets/4fc7bfde-bf62-41ff-a984-8d17945c4062" />
+
+
+### State updated
+Sebelum
+<img width="1888" height="982" alt="Screenshot 2026-06-19 110045" src="https://github.com/user-attachments/assets/7ae40432-1bb9-4f62-8560-e0cef4a32e96" />
+
+Sesudah
+<img width="1905" height="970" alt="Screenshot 2026-06-19 110452" src="https://github.com/user-attachments/assets/80c02218-7de5-41a8-96bf-151e8c464221" />
+
+
+### Error handling
+<img width="1433" height="453" alt="Screenshot 2026-06-19 105634" src="https://github.com/user-attachments/assets/839aa894-71a6-4762-a999-097b3d6920f1" />
+
+
+
+
 
