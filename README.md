@@ -113,6 +113,30 @@ Sesudah
 <img width="1433" height="453" alt="Screenshot 2026-06-19 105634" src="https://github.com/user-attachments/assets/839aa894-71a6-4762-a999-097b3d6920f1" />
 
 
+### Arsitektur
+```
+┌─────────────────────────────────────────────┐
+│         FRONTEND (React.js)                 │
+│  - UI untuk voting, admin panel             │
+│  - MetaMask integration                     │
+│  - Real-time event listeners                │
+└────────────────────┬────────────────────────┘
+                     │ ethers.js
+                     │ (contract interaction)
+┌────────────────────▼────────────────────────┐
+│      BLOCKCHAIN (Hardhat Local Node)        │
+│  - Chain ID: 31337 (Localhost)              │
+│  - Contract Address: 0x5FbDB2315678afecb... │
+└────────────────────┬────────────────────────┘
+                     │
+┌────────────────────▼────────────────────────┐
+│    SMART CONTRACT: Voting.sol (Solidity)    │
+│  - Owner management                         │
+│  - Proposal management                      │
+│  - Voting mechanism                         │
+│  - Advanced features (deadline, quorum)     │
+└─────────────────────────────────────────────┘
+```
 
 
 
