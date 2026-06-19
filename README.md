@@ -82,4 +82,5 @@ Buka `http://localhost:5173`
 [Masukkan Link Video Demo atau GIF di sini]
 
 ## Screenshot
-[Masukkan Screenshot dApp di sini]
+<img width="1600" height="834" alt="image" src="https://github.com/user-attachments/assets/2565a0a4-30ef-4b9d-90ca-8a9323b0a440" />
+
