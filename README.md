@@ -8,7 +8,7 @@ Decentralized Application (dApp) untuk sistem pemilihan umum (Voting) secara on-
 |------|-----|------------|
 | M. Abhinaya Al Faruqi | 5027231011 | Frontend UI/UX & Integrasi Web3 |
 | [Nama Teman 1] | [NRP Teman] | Smart Contract |
-| [Nama Teman 2] | [NRP Teman] | Testing & Dokumentasi |
+| Benjamin Khawarizmi Habibi | 5027231078 | Testing, Deploy, & Dokumentasi |
 
 ## Tech Stack
 - Frontend: React + Vite
